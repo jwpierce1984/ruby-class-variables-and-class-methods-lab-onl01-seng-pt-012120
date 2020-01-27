@@ -1,6 +1,7 @@
 class Song
-  @@num_of_songs = 
-  def initialize(Song)
+  @@num_of_songs = 0
+  attr_writer :name, :artist, :genre
+  def initialize
     @@num_of_songs +=1
   end
   
