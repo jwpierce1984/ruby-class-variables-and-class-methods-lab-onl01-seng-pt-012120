@@ -17,5 +17,10 @@ class Song
     @@num_of_songs
   end
   def self.artist
-    @@
+    @artist.uniq
+  end
+  def self.genre
+    @genre.uniq
+  end
+  
 end
